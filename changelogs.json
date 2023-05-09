@@ -1,5 +1,8 @@
 {
   "v1.0": {
     "changelog": "- First Prominence version!"
+  },
+  "v1.3": {
+    "changelog": "Prominence [FABRIC] 1.19.2 v1.3\r\nThis update adds some clientside changes, along with some quests, the highly requested Create addons and custom recipes for the Bedrock armor and tools!\r\n\r\nMods:\r\n- Added Server Browser (By Thethonk)\r\n- Added Create: Steam \u0027n\u0027 Rails (By mattentosh)\r\n- Added Create Crafts \u0026 Additions (By MRHminer)\r\n\r\n- Removed Forgotten Graves (Not needed due to Charm)\r\n- Updated All Mods\r\n\r\nConfigs \u0026 Quests:\r\n- Added custom crafting recipes for the Bedrock set, so people don\u0027t have to go through Spectrum to get the currently best armor set.\r\n- Configured BHMenu and Server Browser\r\n- Added Discord button in Esc Menu\r\n- Added Issues button in Esc Menu\r\n- Changed loading screen menu background\r\n- Other small menu changes\r\n- Modified some quests, harder ones now give powerful enchantments as rewards\r\n- Added new quests the \"Getting Started\" chapter\r\n- Added new quests the \"Paradise Lost\" chapter\r\n- Added custom window and taskbar icons"
   }
 }
