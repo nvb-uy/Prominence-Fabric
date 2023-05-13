@@ -1,0 +1,32 @@
+type = customizablemenus
+
+net.minecraft.class_525 {
+}
+
+net.minecraft.class_3928 {
+}
+
+net.minecraft.class_433 {
+}
+
+net.minecraft.class_481 {
+}
+
+net.minecraft.class_429 {
+}
+
+com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerScreen {
+}
+
+com.jab125.mpuc.client.gui.screen.ModpackUpdateScreen {
+}
+
+com.jab125.mpuc.client.gui.screen.InfoScreen {
+}
+
+net.minecraft.class_442 {
+}
+
+net.minecraft.class_526 {
+}
+

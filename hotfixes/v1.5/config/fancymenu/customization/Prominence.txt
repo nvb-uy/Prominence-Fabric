@@ -1,0 +1,667 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = fancymenu_data/textures/backgrounds/stronghold.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -97
+  action = movebutton
+  y = -4
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 193
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  vr:showif:modloaded = false
+  action = vanilla_button_visibility_requirements
+  vr:value:modloaded = essential
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = bottom-right
+  x = -99
+  action = movebutton
+  y = -38
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  width = 61
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-right
+  x = -196
+  action = movebutton
+  y = -11
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = 68
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttondescription
+  description = Accesibility
+}
+
+customization {
+  identifier = %id=376310%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -97
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 193
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  vr:showif:modloaded = false
+  action = vanilla_button_visibility_requirements
+  vr:value:modloaded = essential
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376286%
+  orientation = bottom-left
+  x = 9
+  action = movebutton
+  y = -38
+}
+
+customization {
+  identifier = %id=376286%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = 167
+  action = movebutton
+  y = 104
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 106
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 228
+  action = movebutton
+  y = -39
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 60
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -26
+  action = movebutton
+  y = 46
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttondescription
+  description = Language
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 8ad4894d-31a5-475c-b5ac-907b669d8c2c1675871004460
+  y = 339
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 409
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 4beaf406-6730-444d-83b3-6c1d4828385d1675871004467
+  y = 187
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 169
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 6921eb4b-940e-474f-b94e-368ae1fc91901675871004467
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 7dabff2d-d60b-49f5-979d-8ab065c360b41675871004467
+  y = 0
+  height = 30
+}
+
+customization {
+  path = fancymenu_data/textures/backgrounds/separated.png
+  vr:showif:windowheightbiggerthan = false
+  orientation = mid-centered
+  vr:value:windowwidthbiggerthan = 1920
+  x = -104
+  width = 206
+  action = addtexture
+  actionid = be36b844-f081-4816-b68d-6758a7fea95d1678435621650
+  y = -177
+  vr:showif:windowwidthbiggerthan = false
+  height = 352
+  vr:value:windowheightbiggerthan = 1080
+}
+
+customization {
+  vr:showif:windowheightbiggerthan = true
+  vr:showif:modloaded = false
+  slim = false
+  auto_skin = false
+  scale = 35
+  vr:value:windowheightbiggerthan = 800
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = f77bcb8f-d1b0-4353-a881-651d8f09dccf1676030065069
+  playername = ElocinDev
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 63
+  orientation = bottom-centered
+  copy_client_player = true
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/8e0c00a3c8874e229b8226fdd175e67be7a0d34ab123622e6e5d23c6b7237496
+  crouching = false
+  x = -10
+  width = 21
+  parrot_left_shoulder = false
+  y = -75
+  vr:value:modloaded = essential
+  parrot = false
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = Use CODE: LunaPixel for 25% OFF!
+  label = Bisect Server Hosting
+  loopbackgroundanimations = true
+  x = -97
+  width = 193
+  actionid = aa659239-0d9a-4a17-a4e9-3d7f9ed9dd021676030288778
+  action = addbutton
+  y = 20
+  value = https://www.bisecthosting.com/LunaPixel
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = Discord Server
+  label = 
+  loopbackgroundanimations = true
+  x = -56
+  width = 20
+  actionid = 28bd4714-0efa-4a4b-be36-880e8a1c748e1676030930009
+  action = addbutton
+  y = 46
+  value = https://lunapixel.studio/discord
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = CurseForge Page
+  label = 
+  loopbackgroundanimations = true
+  x = 35
+  width = 20
+  actionid = b1d9a2ed-75a1-4cfe-8c35-9736d06eecb21676031035525
+  action = addbutton
+  y = 46
+  value = https://www.curseforge.com/minecraft/modpacks/Prominence-Fabric
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton
+  description = Settings
+  label = 
+  loopbackgroundanimations = true
+  x = -86
+  width = 20
+  actionid = cdaada2d-aa72-4210-a71b-1070c7947c1a1676031886400
+  action = addbutton
+  y = 46
+  value = net.minecraft.class_442:button_compatibility_id:mc_titlescreen_options_button
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = Report an Issue
+  label = 
+  loopbackgroundanimations = true
+  x = 64
+  width = 20
+  actionid = 2f0eb7ab-15a7-4e87-b864-532126bd496a1676031897204
+  action = addbutton
+  y = 46
+  value = https://github.com/LunaPixelStudios/Prominence/issues
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Developed by ElocinDev
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 1
+  width = 128
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 9ca2b68d-8fb4-4a5f-aa21-f90b223f25451676032010831
+  y = -10
+  alignment = left
+  height = 8
+}
+
+customization {
+  orientation = bottom-right
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton
+  description = Quit Game
+  label = 
+  loopbackgroundanimations = true
+  x = -33
+  width = 20
+  actionid = a818b23a-da5d-41c6-b26d-60f8645aa1991676032874334
+  action = addbutton
+  y = -38
+  value = net.minecraft.class_442:button_compatibility_id:mc_titlescreen_quit_button
+  height = 20
+}
+
+customization {
+  path = fancymenu_data/textures/icons/settings.png
+  orientation = mid-centered
+  x = -84
+  width = 16
+  action = addtexture
+  actionid = ecf4e1f6-9e69-4673-bab8-83d225fc44311676042247320
+  y = 49
+  height = 16
+}
+
+customization {
+  path = fancymenu_data/textures/icons/exit.png
+  orientation = bottom-right
+  x = -32
+  width = 18
+  action = addtexture
+  actionid = 784d74c4-07f7-46b3-80c3-df2f4bf15a291676042365755
+  y = -36
+  height = 18
+}
+
+customization {
+  path = fancymenu_data/textures/icons/blank.png
+  orientation = mid-centered
+  x = -97
+  width = 193
+  action = addtexture
+  actionid = 89baa8f7-a54d-41c7-800d-ed07e7edca981676105702054
+  y = -28
+  height = 20
+}
+
+customization {
+  path = fancymenu_data/textures/icons/curseforge.png
+  orientation = mid-centered
+  x = 36
+  width = 18
+  action = addtexture
+  actionid = be88681b-48cf-46cd-91d3-a4d4217a4cc51676042438201
+  y = 45
+  height = 18
+}
+
+customization {
+  path = fancymenu_data/textures/icons/blank.png
+  orientation = mid-centered
+  x = -97
+  width = 193
+  action = addtexture
+  actionid = 742a8a0c-94f8-4c39-b5bc-57a0d8067c581676105824897
+  y = -5
+  height = 21
+}
+
+customization {
+  path = fancymenu_data/textures/icons/issues.png
+  orientation = mid-centered
+  x = 66
+  width = 16
+  action = addtexture
+  actionid = f6e638b6-62d8-4e43-abf4-97e0ef0940421676044243713
+  y = 48
+  height = 16
+}
+
+customization {
+  path = fancymenu_data/textures/icons/discord.png
+  orientation = mid-centered
+  x = -54
+  width = 16
+  action = addtexture
+  actionid = 4a02cd2a-2106-47a5-8b71-edfd071b123f1676098792857
+  y = 48
+  height = 16
+}
+
+customization {
+  path = fancymenu_data/textures/icons/arrow.png
+  orientation = mid-centered
+  vr_custom:value:fancymenu_visibility_requirement_is_element_hovered = 89baa8f7-a54d-41c7-800d-ed07e7edca981676105702054
+  x = -118
+  width = 16
+  action = addtexture
+  actionid = 92c63946-ccd6-43ed-af0d-dc325d41b90d1676105209053
+  y = -26
+  vr_custom:showif:fancymenu_visibility_requirement_is_element_hovered = true
+  height = 16
+}
+
+customization {
+  path = fancymenu_data/textures/icons/blank.png
+  orientation = mid-centered
+  x = -97
+  width = 193
+  action = addtexture
+  actionid = 1162c66c-a634-4abb-819d-6bfb2cc0d0e01676105930549
+  y = 20
+  height = 20
+}
+
+customization {
+  path = fancymenu_data/textures/icons/arrow.png
+  orientation = mid-centered
+  vr_custom:value:fancymenu_visibility_requirement_is_element_hovered = 742a8a0c-94f8-4c39-b5bc-57a0d8067c581676105824897
+  x = -118
+  width = 16
+  action = addtexture
+  actionid = 26c268cc-5a80-4edb-bbd5-3273e767629f1676105230753
+  y = -3
+  vr_custom:showif:fancymenu_visibility_requirement_is_element_hovered = true
+  height = 16
+}
+
+customization {
+  path = fancymenu_data/textures/icons/arrow.png
+  orientation = mid-centered
+  vr_custom:value:fancymenu_visibility_requirement_is_element_hovered = 1162c66c-a634-4abb-819d-6bfb2cc0d0e01676105930549
+  x = -118
+  width = 16
+  action = addtexture
+  actionid = 079a11de-1947-4fdc-931b-c54f895713231676105239564
+  y = 22
+  vr_custom:showif:fancymenu_visibility_requirement_is_element_hovered = true
+  height = 16
+}
+
+customization {
+  path = fancymenu_data/textures/icons/arrow_alt.png
+  orientation = mid-centered
+  vr_custom:value:fancymenu_visibility_requirement_is_element_hovered = 89baa8f7-a54d-41c7-800d-ed07e7edca981676105702054
+  x = 97
+  width = 16
+  action = addtexture
+  actionid = 7ef13c1f-6f4e-45ac-a72d-6fe73b0e83e91676105564458
+  y = -26
+  vr_custom:showif:fancymenu_visibility_requirement_is_element_hovered = true
+  height = 16
+}
+
+customization {
+  path = fancymenu_data/textures/icons/arrow_alt.png
+  orientation = mid-centered
+  vr_custom:value:fancymenu_visibility_requirement_is_element_hovered = 742a8a0c-94f8-4c39-b5bc-57a0d8067c581676105824897
+  x = 97
+  width = 16
+  action = addtexture
+  actionid = 96b0e656-dc1a-41d3-8902-916a1b344bbb1676105613202
+  y = -3
+  vr_custom:showif:fancymenu_visibility_requirement_is_element_hovered = true
+  height = 16
+}
+
+customization {
+  path = fancymenu_data/textures/icons/arrow_alt.png
+  orientation = mid-centered
+  vr_custom:value:fancymenu_visibility_requirement_is_element_hovered = 1162c66c-a634-4abb-819d-6bfb2cc0d0e01676105930549
+  x = 97
+  width = 16
+  action = addtexture
+  actionid = 19c26110-067d-4a91-bccd-a75fcb8964891676105643838
+  y = 22
+  vr_custom:showif:fancymenu_visibility_requirement_is_element_hovered = true
+  height = 16
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = Boost Your FPS
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = 5
+  width = 20
+  actionid = 75a4bb10-a2b0-4b9b-ad4b-5b8e651f3f9e1676107141590
+  action = addbutton
+  y = 46
+  value = https://github.com/LunaPixelStudios/Prominence/wiki/Performance-Guide
+  height = 20
+}
+
+customization {
+  path = fancymenu_data/textures/icons/performanceguide.png
+  orientation = mid-centered
+  x = 7
+  width = 16
+  action = addtexture
+  actionid = 53e4c5f4-411e-40f9-8344-ba648f88312c1676107162176
+  y = 48
+  height = 16
+}
+
+customization {
+  vr:showif:windowheightbiggerthan = false
+  slim = false
+  auto_skin = false
+  scale = 35
+  vr:value:windowheightbiggerthan = 800
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = c1a094eb-810a-405a-9855-cd93decdf2241676210373662
+  playername = ElocinDev
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 63
+  orientation = mid-left
+  copy_client_player = true
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/8e0c00a3c8874e229b8226fdd175e67be7a0d34ab123622e6e5d23c6b7237496
+  crouching = false
+  x = 19
+  width = 21
+  parrot_left_shoulder = false
+  y = -32
+  parrot = false
+}
+
+customization {
+  path = fancymenu_data/textures/icons/prominence_full.png
+  orientation = mid-centered
+  x = -118
+  width = 231
+  action = addtexture
+  actionid = a340b483-9163-4c3e-be95-dfb9dd77895e1677687560852
+  y = -162
+  height = 125
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  vr:showif:modloaded = true
+  scale = 1.0
+  source = The Essential mod has been detected as installed! %n% Using the Essential mod in modpacks WILL corrupt your world. Having the mod present will prevent MANY mods from working. %n% If you want a 100% stable server, click the Bisect Server Hosting button above. %n% To host a server for free, download the serverpack from the modpack's Curseforge page and read the file named README.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -317
+  width = 635
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = e3b3b33b-c071-4cd8-8bf9-d6ec93c8263b1681841291447
+  y = -25
+  vr:value:modloaded = essential
+  alignment = left
+  base_color = FF0000
+  height = 40
+}
+
+customization {
+  audio_source:6c5abe4b-40c2-4864-9b46-8b43c2b137401681841768265 = config/prominent_resources/main-menu.ogg;EXTERNAL_LOCAL;40;0
+  orientation = top-left
+  loop = true
+  channel = record
+  x = 13
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = 688d8d40-dfdd-4f64-99c6-e892ef0298bf1681841762498
+  y = 30
+  once_per_session = false
+  height = 50
+}
+

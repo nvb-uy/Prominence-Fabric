@@ -1,0 +1,29 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_526
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  audio_source:794ee83b-ac25-439e-95b4-fccb13a417b51683932025738 = config/prominent_resources/main-menu.ogg;EXTERNAL_LOCAL;40;0
+  orientation = top-left
+  loop = true
+  channel = record
+  x = 12
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = 11c911e6-171e-4a5e-bda6-e514093de38b1683932019821
+  y = 21
+  once_per_session = false
+  height = 50
+}
+

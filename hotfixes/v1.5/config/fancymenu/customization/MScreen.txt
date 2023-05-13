@@ -1,0 +1,59 @@
+type = menu
+
+customization-meta {
+  identifier = com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=33%
+  orientation = bottom-left
+  x = 16
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=33%
+  width = 95
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=660946%
+  orientation = bottom-left
+  x = 16
+  action = movebutton
+  y = -52
+}
+
+customization {
+  identifier = %id=660946%
+  width = 95
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  audio_source:7809c317-c725-4437-a88b-59e9df117d851683931964322 = config/prominent_resources/main-menu.ogg;EXTERNAL_LOCAL;40;0
+  orientation = top-left
+  loop = true
+  channel = master
+  x = 32
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = 6b26f50f-8c04-4b60-bb43-8f498afcd9ac1683931915927
+  y = 23
+  once_per_session = false
+  height = 50
+}
+

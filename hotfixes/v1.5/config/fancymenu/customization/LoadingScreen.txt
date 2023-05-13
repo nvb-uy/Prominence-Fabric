@@ -1,0 +1,53 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_3928
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = fancymenu_data/textures/icons/prominence_full.png
+  orientation = mid-centered
+  x = -112
+  width = 225
+  action = addtexture
+  actionid = 3db5dc9b-9f6e-414c-b339-dd2b8580e7a01678438004404
+  y = -166
+  height = 116
+}
+
+customization {
+  orientation = mid-centered
+  copy_client_player = true
+  slim = false
+  auto_skin = false
+  scale = 30
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/8e0c00a3c8874e229b8226fdd175e67be7a0d34ab123622e6e5d23c6b7237496
+  showname = false
+  crouching = true
+  follow_mouse = true
+  x = -7
+  width = 18
+  parrot_left_shoulder = false
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 65b74829-4413-4ae0-8043-315fff06fd421678438683050
+  y = 39
+  playername = ElocinDev
+  bodyrotationx = 0.0
+  parrot = false
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+}
+

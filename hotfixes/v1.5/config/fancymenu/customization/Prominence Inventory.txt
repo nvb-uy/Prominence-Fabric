@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_481
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = fancymenu_data/textures/icons/prominence_textonly.png
+  orientation = top-left
+  x = 236
+  width = 167
+  action = addtexture
+  actionid = a93a8c47-fac0-47f7-81c2-5d61cdd5e6341681006360248
+  y = 19
+  height = 44
+}
+
